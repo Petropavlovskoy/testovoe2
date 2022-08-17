@@ -1,0 +1,35 @@
+ .wrapper {
+ 
+   display: grid;
+   grid-template-areas: 
+   "h h h"
+   "n c b";
+   
+   grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 15%; 
+     /* grid-gap: 2vw; */
+
+     /* grid-gap: 10px;
+     height: 100vh;
+     margin: 0; */
+ }
+
+ .header {
+   grid-area: h;
+   background-color: green;
+ }
+
+ .navbar {
+   grid-area: n;
+   background-color: blue;
+ }
+
+ .map {
+   grid-area: c;
+   background-color: white;
+ }
+
+ .footer {
+   grid-area: b;
+   background-color: rgb(255, 255, 0);
+ }
